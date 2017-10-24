@@ -1,0 +1,41 @@
+/*setear mi css*/
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #303030;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* clases reutilizables*/
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+/*clases especificas*/
+li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+.logo-header {
+  width:  200px;
+}
+
+header{
+  position: relative;
+}
+nav {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+.box-header{
+  display: inline-block;
+}
